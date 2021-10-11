@@ -7,11 +7,31 @@
 
     <?php endif; ?>
 
+    <?php if (empty($barang)) : ?>
+        <div class="alert alert-danger" role="alert">
+            Data Barang Tidak Ditemukan...
+        </div>
+    <?php endif; ?>
+
+    <br>
     <div class="row-mt-3">
         <div class="colmd-6">
             <a href="<?= base_url(); ?>barang/tambah" class="btn btn-primary">Tambahkan Data Barang</a>
         </div>
     </div>
+
+    <br>
+    <div class="row-mt-3">
+        <div class="col-md-6">
+            <form action="" method="post">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Cari Data Barang.." name="keyword">
+                    <button class="btn btn-primary" type="submit">Cari</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <table class="table">
         <thead>
             <tr>
