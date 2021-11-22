@@ -114,8 +114,7 @@
                                 <div class="status-indicator bg-success"></div>
                             </div>
                             <div class="font-weight-bold">
-                                <div class="text-truncate">Hi there! I am wondering if you can help me with a
-                                    problem I've been having.</div>
+                                <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been having.</div>
                                 <div class="small text-gray-500">Emily Fowler · 58m</div>
                             </div>
                         </a>
@@ -136,8 +135,7 @@
                                 <div class="status-indicator bg-warning"></div>
                             </div>
                             <div>
-                                <div class="text-truncate">Last month's report looks great, I am very happy with
-                                    the progress so far, keep up the good work!</div>
+                                <div class="text-truncate">Last month's report looks great, I am very happy with the progress so far, keep up the good work!</div>
                                 <div class="small text-gray-500">Morgan Alvarez · 2d</div>
                             </div>
                         </a>
@@ -147,8 +145,7 @@
                                 <div class="status-indicator bg-success"></div>
                             </div>
                             <div>
-                                <div class="text-truncate">Am I a good boy? The reason I ask is because someone
-                                    told me that people say this to all dogs, even if they aren't good...</div>
+                                <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</div>
                                 <div class="small text-gray-500">Chicken the Dog · 2w</div>
                             </div>
                         </a>
@@ -166,9 +163,9 @@
                     </a>
                     <!-- Dropdown - User Information -->
                     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" href="<?= base_url('user'); ?>">
                             <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                            Profile
+                            Profil Saya
                         </a>
                         <a class="dropdown-item" href="#">
                             <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
